@@ -19,10 +19,24 @@ namespace AppTut1
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
             textView2 = FindViewById<TextView>(Resource.Id.textView2);
-            FindViewById<Button>(Resource.Id.buttonIncrement).Click += (o, e) =>
-            textView2.Text = (++number).ToString();
-            FindViewById<Button>(Resource.Id.buttonDecrement).Click += (o, e) =>
-            textView2.Text = (--number).ToString();
+            FindViewById<Button>(Resource.Id.buttonLetterP).Click += (o, e) =>
+            textView2.Text = "P";
+            FindViewById<Button>(Resource.Id.buttonLetterA).Click += (o, e) =>
+            textView2.Text = "A";
+            FindViewById<Button>(Resource.Id.buttonLetterU).Click += (o, e) =>
+            textView2.Text = "U";
+            FindViewById<Button>(Resource.Id.buttonLetterL).Click += (o, e) =>
+            textView2.Text = "L";
+            FindViewById<Button>(Resource.Id.buttonLetterH).Click += (o, e) =>
+            textView2.Text = "H";
+            FindViewById<Button>(Resource.Id.buttonLetterO).Click += (o, e) =>
+            textView2.Text = "O";
+            FindViewById<Button>(Resource.Id.buttonLetterU2).Click += (o, e) =>
+            textView2.Text = "U";
+            FindViewById<Button>(Resource.Id.buttonLetterD).Click += (o, e) =>
+            textView2.Text = "D";
+            FindViewById<Button>(Resource.Id.buttonLetterE).Click += (o, e) =>
+            textView2.Text = "E";
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
