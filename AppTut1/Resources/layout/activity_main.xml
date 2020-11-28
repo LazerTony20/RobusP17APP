@@ -82,6 +82,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/buttonLetterE" />
+            <Button
+                android:text="Réglages"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonSettings" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

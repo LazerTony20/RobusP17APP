@@ -14,7 +14,7 @@ http://www.dsdtech-global.com/2017/09/sh-m08.html
 
 String incomingByte = ""; // for incoming serial data
 String outMessage = "";
-int mode = 1; //0 for read-write and 1 for read only
+int mode = 0; //0 for read-write and 1 for read only
 void setup() {
   // put your setup code here, to run once:
   //Initialise le port de communication et attend pour l'ouvrir:
