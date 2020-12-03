@@ -3,6 +3,8 @@ using Android.OS;
 using Android.Support.V7.App;
 using Android.Runtime;
 using Android.Widget;
+using Android.Bluetooth;
+using Plugin.BLE;
 
 namespace AppTut1
 {
@@ -10,10 +12,18 @@ namespace AppTut1
     public class MainActivity : AppCompatActivity
     {
         TextView textView2;
-        int number;
+        int number = 0;
+        
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            var ble = CrossBluetoothLE.Current;
+            var adapter = CrossBluetoothLE.Current.Adapter;
+            var state = ble.State;
+            ble.StateChanged += (s, e) =>
+            {
+                System.Diagnostics.Debug.Write($"The bluetooth state changed to {e.NewState}");
+            };
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             // Set our view from the "main" layout resource
@@ -37,6 +47,35 @@ namespace AppTut1
             textView2.Text = "D";
             FindViewById<Button>(Resource.Id.buttonLetterE).Click += (o, e) =>
             textView2.Text = "E";
+            
+            FindViewById<Button>(Resource.Id.buttonStartScan).Click += (o, e) =>
+            {
+                adapter.StartScanningForDevicesAsync();
+            };
+
+            FindViewById<Button>(Resource.Id.buttonStopScan).Click += (o, e) =>
+            {
+                adapter.StopScanningForDevicesAsync();
+            };
+
+            FindViewById<Button>(Resource.Id.buttonBTStatus).Click += (o, e) =>
+            {
+                System.Diagnostics.Debug.Write($"The bluetooth state changed to {ble.State}");
+            };
+
+            FindViewById<Button>(Resource.Id.buttonBTConnect).Click += (o, e) =>
+            {
+                textView2.Text = "Connecting";
+            };
+
+            adapter.DeviceDiscovered += (s, a) => 
+            {
+                System.Diagnostics.Debug.Write($"Device Found: {a.Device.Id}");
+                System.Diagnostics.Debug.Write("-----------------");
+            };
+
+            
+
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
@@ -45,4 +84,6 @@ namespace AppTut1
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
     }
+
+
 }

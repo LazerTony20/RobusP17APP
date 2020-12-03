@@ -1,0 +1,2 @@
+using debug : https://forums.xamarin.com/discussion/130337/how-do-i-use-console-or-output-window
+

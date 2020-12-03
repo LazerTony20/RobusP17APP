@@ -83,10 +83,25 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/buttonLetterE" />
             <Button
-                android:text="Réglages"
+                android:text="BlueTooth Status"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/buttonSettings" />
+                android:id="@+id/buttonBTStatus" />
+            <Button
+                android:text="Start Scan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonStartScan" />
+            <Button
+                android:text="Stop Scan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonStopScan" />
+            <Button
+                android:text="Connect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonBTConnect" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>
