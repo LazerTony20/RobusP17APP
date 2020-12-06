@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="clip_horizontal|clip_vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+        <LinearLayout
+            android:gravity="clip_horizontal|clip_vertical|center"
+            android:orientation="vertical"
+            android:minWidth="300dp"
+            android:minHeight="100px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout1" >
+            <TextView
+                android:gravity="center"
+                android:text="Bonsoir les Sportifs"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="50sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="50sp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="C"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonLetterC" />
+            <Button
+                android:text="D"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonLetterD" />
+            <Button
+                android:text="J"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonLetterJ" />
+            <Button
+                android:text="L"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonLetterL" />
+            <Button
+                android:text="T"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonLetterT" />
+            <Button
+                android:text="V"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonLetterV" />
+            <Button
+                android:text="Z"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonLetterZ" />
+            <Button
+                android:text="Start Scan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonStartScan" />
+            <Button
+                android:text="Stop Scan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonStopScan" />
+            <Button
+                android:text="Connect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonBTConnect" />
+            <Button
+                android:text="BlueTooth Status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonBTStatus" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

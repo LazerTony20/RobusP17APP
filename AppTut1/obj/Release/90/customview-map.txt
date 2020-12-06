@@ -18,6 +18,7 @@ resources;obj\Release\90\res\values\colors.xml
 resources;obj\Release\90\res\values\ic_launcher_background.xml
 resources;obj\Release\90\res\values\strings.xml
 resources;obj\Release\90\res\values\styles.xml
+ScrollView;obj\Release\90\res\layout\activity_main.xml
 string;obj\Release\90\res\values\strings.xml
 style;obj\Release\90\res\values\styles.xml
 TextView;obj\Release\90\res\layout\activity_main.xml

@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\antho\\Documents\\Programmes\\RobusP17APP\\AppTut1\\AppTut1.csproj": {}
+    "D:\\Documents\\Programmation\\RobusP17APP\\AppTut1\\AppTut1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\antho\\Documents\\Programmes\\RobusP17APP\\AppTut1\\AppTut1.csproj": {
+    "D:\\Documents\\Programmation\\RobusP17APP\\AppTut1\\AppTut1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\antho\\Documents\\Programmes\\RobusP17APP\\AppTut1\\AppTut1.csproj",
+        "projectUniqueName": "D:\\Documents\\Programmation\\RobusP17APP\\AppTut1\\AppTut1.csproj",
         "projectName": "AppTut1",
-        "projectPath": "C:\\Users\\antho\\Documents\\Programmes\\RobusP17APP\\AppTut1\\AppTut1.csproj",
+        "projectPath": "D:\\Documents\\Programmation\\RobusP17APP\\AppTut1\\AppTut1.csproj",
         "packagesPath": "C:\\Users\\antho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\antho\\Documents\\Programmes\\RobusP17APP\\AppTut1\\obj\\",
+        "outputPath": "D:\\Documents\\Programmation\\RobusP17APP\\AppTut1\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\antho\\AppData\\Roaming\\NuGet\\NuGet.Config",
