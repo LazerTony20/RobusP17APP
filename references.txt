@@ -9,3 +9,9 @@ https://punchthrough.com/android-ble-guide/
 https://developer.android.com/reference/java/util/List
 https://forums.xamarin.com/discussion/138506/using-ble-async-scans-in-a-background-service
 https://www.google.com/search?client=firefox-b-d&sxsrf=ALeKk03hNHXDYJ9a2EgE8hDfZfBwjalUvw%3A1607022697747&ei=aTjJX-GYLYGs_Qa8jLfgAg&q=android+ble+change+status+to+on&oq=android+ble+change+status+to+on&gs_lcp=CgZwc3ktYWIQAzIICCEQFhAdEB4yCAghEBYQHRAeMggIIRAWEB0QHjoECAAQRzoECCMQJzoGCAAQFhAeOgUIABDLAVDyK1j5R2CjSmgEcAJ4AIABdIgBmQqSAQM3LjaYAQCgAQGqAQdnd3Mtd2l6yAEIwAEB&sclient=psy-ab&ved=0ahUKEwih8a2IwrLtAhUBVt8KHTzGDSwQ4dUDCAw&uact=5
+
+
+
+
+
+UUID Chip: 0000ffe0-0000-1000-8000-00805f9b34fb

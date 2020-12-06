@@ -38,55 +38,40 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/textView2" />
             <Button
-                android:text="P"
+                android:text="C"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/buttonLetterP" />
-            <Button
-                android:text="A"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/buttonLetterA" />
-            <Button
-                android:text="U"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/buttonLetterU" />
-            <Button
-                android:text="L"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/buttonLetterL" />
-            <Button
-                android:text="H"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/buttonLetterH" />
-            <Button
-                android:text="O"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/buttonLetterO" />
-            <Button
-                android:text="U"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/buttonLetterU2" />
+                android:id="@+id/buttonLetterC" />
             <Button
                 android:text="D"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/buttonLetterD" />
             <Button
-                android:text="E"
+                android:text="J"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/buttonLetterE" />
+                android:id="@+id/buttonLetterJ" />
             <Button
-                android:text="BlueTooth Status"
+                android:text="L"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/buttonBTStatus" />
+                android:id="@+id/buttonLetterL" />
+            <Button
+                android:text="T"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonLetterT" />
+            <Button
+                android:text="V"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonLetterV" />
+            <Button
+                android:text="Z"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonLetterZ" />
             <Button
                 android:text="Start Scan"
                 android:layout_width="match_parent"
@@ -102,6 +87,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/buttonBTConnect" />
+            <Button
+                android:text="BlueTooth Status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonBTStatus" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>
